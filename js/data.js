@@ -26,6 +26,7 @@ const DAYS = [
       },
       {
         name: "Supine Knee-to-Chest",
+        videoId: "8Hpaf6zjqlY",
         facts: ["30 sec each side", "2 rounds", "Floor exercise"],
         summary: "Lie on your back and pull one knee gently toward your chest, keeping the other leg long on the floor.",
         why: "This simple stretch decompresses the lower lumbar vertebrae and releases the hip flexors and glutes simultaneously. It's an ideal first move because it requires zero mobility to enter — anyone can do it — and it immediately signals the nervous system that it's safe to relax the hip region.",
@@ -42,6 +43,7 @@ const DAYS = [
       },
       {
         name: "Cat-Cow with Hip Circles",
+        VideoId: "nrIDih5zzDw",
         facts: ["10 reps cat-cow", "8 circles each way", "Hands & knees"],
         summary: "Flow through cat and cow on all fours, then add slow hip circles to warm up the entire lumbar-hip complex.",
         why: "The hip joint is a ball-and-socket joint — it's designed to move in full circles, but most daily movement only uses a tiny arc of that range. Cat-cow warms the spine and brings blood flow to the lumbar region, then adding circles begins lubricating the joint with synovial fluid. Think of it as oiling a hinge.",
@@ -68,6 +70,7 @@ const DAYS = [
     exercises: [
       {
         name: "Pigeon Pose",
+        videoId: "pjmR5Kacu1w",
         facts: ["90 sec each side", "1–2 rounds", "Floor exercise"],
         summary: "From all fours, bring one knee forward toward the same-side wrist and extend the other leg back. Lower your hips toward the floor.",
         why: "Pigeon pose is considered the gold standard for outer hip and glute release. It stretches the piriformis — a deep muscle under the glute that, when tight, compresses the sciatic nerve and causes pain radiating down the leg. Unlike standing glute stretches, pigeon uses gravity to create a deep, sustained release that short holds simply can't replicate.",
@@ -85,6 +88,7 @@ const DAYS = [
       },
       {
         name: "Standing Hip Flexor Stretch",
+        videoId: "DXuStgWuJV8",
         facts: ["45 sec each side", "2 rounds", "Kneeling lunge"],
         summary: "Kneel in a low lunge with one knee on the ground, then gently tuck your pelvis and shift weight forward to feel a deep stretch in the front of the back hip.",
         why: "Your hip flexors — particularly the psoas — run from your lumbar spine to your femur. When you sit for hours, they shorten. A shortened psoas tilts your pelvis forward, compressing the lower back and making it impossible to fully extend the hip during walking or running. This stretch specifically targets that muscle and begins reversing the damage from prolonged sitting.",
@@ -101,6 +105,7 @@ const DAYS = [
       },
       {
         name: "Seated Figure-4",
+        videoId: "2E8WWX4cOc4",
         facts: ["60 sec each side", "2 rounds", "Chair or floor"],
         summary: "Cross one ankle over the opposite knee and gently press the raised knee toward the floor while hinging forward slightly.",
         why: "This stretch targets the hip external rotators — the six small muscles deep in the posterior hip that control rotation. These muscles are almost always neglected in typical stretching routines, yet their tightness restricts squatting depth, creates a waddling gait, and contributes to lower back pain. Think of this as maintenance stretching for muscles that work hard but never get any attention.",
