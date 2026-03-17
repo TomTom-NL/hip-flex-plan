@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Day — Hip Flexibility Plan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="day-page">
+
+  <!-- SIDEBAR NAV -->
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <a href="index.html" style="text-decoration:none;color:inherit;">
+        <span class="logo-mark">Hip</span>
+        <span class="logo-sub">Mobility Plan</span>
+      </a>
+    </div>
+
+    <nav class="day-nav">
+      <div class="phase-group">
+        <div class="phase-label phase-1-label">Phase 1 — Awaken</div>
+        <a href="day.html?day=1" class="nav-day" data-day="1">
+          <span class="nav-num">01</span><span class="nav-name">Foundation</span>
+        </a>
+        <a href="day.html?day=2" class="nav-day" data-day="2">
+          <span class="nav-num">02</span><span class="nav-name">Active Reset</span>
+        </a>
+        <a href="day.html?day=3" class="nav-day rest" data-day="3">
+          <span class="nav-num">03</span><span class="nav-name">Rest &amp; Walk</span>
+        </a>
+      </div>
+      <div class="phase-group">
+        <div class="phase-label phase-2-label">Phase 2 — Open</div>
+        <a href="day.html?day=4" class="nav-day" data-day="4">
+          <span class="nav-num">04</span><span class="nav-name">Hip Flexors</span>
+        </a>
+        <a href="day.html?day=5" class="nav-day" data-day="5">
+          <span class="nav-num">05</span><span class="nav-name">Deep Openers</span>
+        </a>
+        <a href="day.html?day=6" class="nav-day" data-day="6">
+          <span class="nav-num">06</span><span class="nav-name">Mobility Flow</span>
+        </a>
+        <a href="day.html?day=7" class="nav-day rest" data-day="7">
+          <span class="nav-num">07</span><span class="nav-name">Rest &amp; Reflect</span>
+        </a>
+      </div>
+      <div class="phase-group">
+        <div class="phase-label phase-3-label">Phase 3 — Deepen</div>
+        <a href="day.html?day=8" class="nav-day" data-day="8">
+          <span class="nav-num">08</span><span class="nav-name">Full Routine</span>
+        </a>
+        <a href="day.html?day=9" class="nav-day" data-day="9">
+          <span class="nav-num">09</span><span class="nav-name">Peak Stretch</span>
+        </a>
+        <a href="day.html?day=10" class="nav-day" data-day="10">
+          <span class="nav-num">10</span><span class="nav-name">Benchmark Day</span>
+        </a>
+      </div>
+    </nav>
+  </aside>
+
+  <!-- DAY CONTENT — injected by JS -->
+  <main class="main-content day-main" id="day-content">
+    <div class="loading">Loading…</div>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/day.js"></script>
+</body>
+</html>
