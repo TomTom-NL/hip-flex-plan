@@ -43,7 +43,7 @@ const DAYS = [
       },
       {
         name: "Cat-Cow with Hip Circles",
-        VideoId: "nrIDih5zzDw",
+        videoId: "nrIDih5zzDw",
         facts: ["10 reps cat-cow", "8 circles each way", "Hands & knees"],
         summary: "Flow through cat and cow on all fours, then add slow hip circles to warm up the entire lumbar-hip complex.",
         why: "The hip joint is a ball-and-socket joint — it's designed to move in full circles, but most daily movement only uses a tiny arc of that range. Cat-cow warms the spine and brings blood flow to the lumbar region, then adding circles begins lubricating the joint with synovial fluid. Think of it as oiling a hinge.",
