@@ -152,6 +152,7 @@ const DAYS = [
     exercises: [
       {
         name: "Kneeling Lunge + Overhead Reach",
+        videoId: "m5l1lKr5bk4",
         facts: ["8 reps each side", "3 rounds", "Kneeling"],
         summary: "From a low lunge with back knee down, raise the same-side arm overhead and lean gently away to create a diagonal stretch through the hip flexor and lat.",
         why: "The standard kneeling lunge only stretches the hip flexor in one plane. Adding the overhead reach creates a lateral pull that targets the quadratus lumborum and the top portion of the psoas — the part that connects to the lumbar spine and is often the root cause of lower back tightness. You're essentially stretching a chain of connected tissue in one movement.",
@@ -168,6 +169,7 @@ const DAYS = [
       },
       {
         name: "Butterfly Stretch",
+        videoId: "HyMv5OPhD1A",
         facts: ["90 sec hold", "2 rounds", "Floor seated"],
         summary: "Sit with the soles of your feet together, knees dropped to the sides. Hinge forward from the hips — not the lower back.",
         why: "The butterfly targets the hip adductors (inner thighs) and external rotators simultaneously. These muscles often become tight from prolonged sitting or exercise that only works the legs in a forward-back plane (running, cycling). When adductors are tight, they limit hip abduction and pull the pelvis out of neutral, creating a domino effect of compensation up the spine.",
@@ -184,6 +186,7 @@ const DAYS = [
       },
       {
         name: "Glute Bridge",
+        videoId: "X_IGw8U_e38",
         facts: ["15 reps", "3 sets", "Floor exercise"],
         summary: "Lie on your back with knees bent, feet flat. Drive your hips to the ceiling by squeezing your glutes hard at the top.",
         why: "This is the most important strengthening exercise in the plan. The glute bridge activates the gluteus maximus — the primary hip extensor — which is chronically underactive in people with tight hip flexors. When the glutes are weak, the hip flexors become the dominant hip movers, getting chronically short and tight. Strengthening the glutes literally teaches your brain to stop relying on the hip flexors as the primary movers.",
