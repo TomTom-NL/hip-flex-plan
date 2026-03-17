@@ -9,7 +9,7 @@ const DAYS = [
     exercises: [
       {
         name: "90/90 Hip Stretch",
-        videoID: "shorts/FM7-7-a0FLg"
+        videoID: "FM7-7-a0FLg"
         facts: ["60 sec each side", "2–3 rounds", "Floor exercise"],
         summary: "Sit with both legs bent at 90°, one in front and one to the side. Hold upright, then lean forward slightly from the hips.",
         why: "The 90/90 is one of the most effective hip openers because it simultaneously addresses both external rotation (front leg) and internal rotation (back leg) — two movements your hips rarely get in daily life. Most people are chronically short on hip internal rotation, which causes lower back strain and reduced stride length.",
