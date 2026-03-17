@@ -55,19 +55,8 @@
                 <div class="ex-name" style="font-size:1.25rem">${act.name}</div>
                 <p class="ex-summary" style="margin-bottom:0">${act.desc}</p>
               </div>
-              <div class="ex-video" style="background:var(--cream);">
-                <div class="video-placeholder">
-                  <div class="video-placeholder-icon">
-                    ${videoIcon()}
-                  </div>
-                  <div class="video-placeholder-text">
-                    <strong>Video goes here</strong>
-                    Paste a YouTube embed below this placeholder
-                  </div>
-                </div>
-                <a class="yt-search-link" href="https://www.youtube.com/results?search_query=${encodeURIComponent(act.ytQuery)}" target="_blank" rel="noopener">
-                  ${ytIcon()} Search YouTube for a tutorial
-                </a>
+              <div class="ex-video">
+                ${videoBlock(act.videoId, act.ytQuery)}
               </div>
             </div>
           </div>
@@ -117,18 +106,7 @@
 
           <!-- RIGHT: Video -->
           <div class="ex-video">
-            <div class="video-placeholder">
-              <div class="video-placeholder-icon">
-                ${videoIcon()}
-              </div>
-              <div class="video-placeholder-text">
-                <strong>Video placeholder</strong>
-                Replace this with a YouTube iframe embed
-              </div>
-            </div>
-            <a class="yt-search-link" href="https://www.youtube.com/results?search_query=${encodeURIComponent(ex.ytQuery)}" target="_blank" rel="noopener">
-              ${ytIcon()} Find tutorial on YouTube
-            </a>
+            ${videoBlock(ex.videoId, ex.ytQuery)}
           </div>
 
         </div>
@@ -179,6 +157,30 @@ function toggleDeep(i) {
   const open = deep.classList.toggle('visible');
   btn.classList.toggle('open', open);
   btn.querySelector('span:first-child').textContent = open ? 'Less detail' : 'More detail & why';
+}
+
+function videoBlock(videoId, ytQuery) {
+  if (videoId && videoId.trim() !== '') {
+    return `
+      <div class="video-embed-wrap">
+        <iframe
+          src="https://www.youtube.com/embed/${videoId.trim()}"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
+      </div>`;
+  }
+  return `
+    <div class="video-placeholder">
+      <div class="video-placeholder-icon">${videoIcon()}</div>
+      <div class="video-placeholder-text">
+        <strong>Video coming soon</strong>
+        Add a videoId in data.js to embed here
+      </div>
+    </div>
+    <a class="yt-search-link" href="https://www.youtube.com/results?search_query=${encodeURIComponent(ytQuery)}" target="_blank" rel="noopener">
+      ${ytIcon()} Find tutorial on YouTube
+    </a>`;
 }
 
 function videoIcon() {
